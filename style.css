@@ -1,0 +1,77 @@
+@font-face {
+    font-family: FF1;
+    src: url(/Fonts/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: FF1, sans-serif;
+}
+
+body{
+    background: #6a89cc;
+    color: #C70039;
+    min-height: 100vh;
+}
+
+header{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-Form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: rgb(241, 247, 250);
+    
+}
+form input{
+    border-radius: 10px;
+}
+
+input:focus {
+    outline:  none;
+}
+
+.todoButton{
+    color: #0c2461;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    translate: -9px;
+}
+
+.todoButton:hover{
+    color: #6acc9e;
+    background: rgb(241, 247, 250);
+}
+
+/* .todoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todoList{
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: rgb(241, 247, 250);
+    color: #0c2461;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+} */
